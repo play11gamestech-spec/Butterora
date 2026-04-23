@@ -2033,8 +2033,29 @@
     <script src="src/lib/js/swiper-bundle.min.js"></script>
     <script src="src/lib/js/bvselect.js"></script>
     <script src="src/lib/js/bootstrap.bundle.min.js"></script>
-    <script src="src/js/main.js"></script>
+    <script type="module" src="src/js/main.js"></script>
         <!-- Purchase Button -->
         
-  </body>
+  
+    <script>
+        // Emergency loader hide script
+        (function() {
+            function hideLoader() {
+                var loader = document.querySelector('.loader');
+                if (loader) {
+                    loader.style.display = 'none';
+                    console.log('Loader hidden by inline script');
+                }
+            }
+            // Try immediately
+            hideLoader();
+            // Try on DOMContentLoaded
+            document.addEventListener('DOMContentLoaded', hideLoader);
+            // Try on load
+            window.addEventListener('load', hideLoader);
+            // Final fallback
+            setTimeout(hideLoader, 2000);
+        })();
+    </script>
+</body>
 </html>

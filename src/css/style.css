@@ -10982,3 +10982,26 @@ body.overlay::after {
     transform: rotate(0deg);
   }
 }
+
+/* Preloader Fail-safe & Branding Fix */
+@keyframes autoHideLoader {
+    0% { opacity: 1; visibility: visible; }
+    90% { opacity: 1; visibility: visible; }
+    100% { opacity: 0; visibility: hidden; display: none !important; }
+}
+
+.loader {
+    animation: autoHideLoader 5s forwards !important;
+    background-color: #fff !important; /* Ensure clean white background */
+}
+
+.loader-icon img {
+    /* Optional: Add a slight pulse to the loader to make it feel alive */
+    animation: loaderPulse 1.5s infinite ease-in-out;
+}
+
+@keyframes loaderPulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}

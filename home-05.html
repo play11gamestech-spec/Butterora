@@ -5655,7 +5655,7 @@
                     <div class="col-xxl-3 order-xxl-0 order-1">
                         <div class="cards-ss cards-ss--darktext cards-ss--small-two">
                             <div class="cards-ss__img-wrapper">
-                                <img src="src/images/banner/banner-sm-02.png " alt="banner" />
+                                <img src="src/images/banner/banner-sm-02.png" alt="banner" />
                                 <div class="cards-ss__content text-center">
                                     <h6 class="font-body--md-500">hot Sale</h6>
 
@@ -9033,9 +9033,30 @@
         <script src="src/lib/js/bvselect.js"></script>
         <script src="src/lib/js/bootstrap.bundle.min.js"></script>
         <script src="src/lib/js/jquery.syotimer.min.js"></script>
-        <script src="src/js/main.js"></script>
-        <script src="src/js/home5.js"></script>
+        <script type="module" src="src/js/main.js"></script>
+        <script type="module" src="src/js/home5.js"></script>
         <!-- Purchase Button -->
         
-    </body>
+    
+    <script>
+        // Emergency loader hide script
+        (function() {
+            function hideLoader() {
+                var loader = document.querySelector('.loader');
+                if (loader) {
+                    loader.style.display = 'none';
+                    console.log('Loader hidden by inline script');
+                }
+            }
+            // Try immediately
+            hideLoader();
+            // Try on DOMContentLoaded
+            document.addEventListener('DOMContentLoaded', hideLoader);
+            // Try on load
+            window.addEventListener('load', hideLoader);
+            // Final fallback
+            setTimeout(hideLoader, 2000);
+        })();
+    </script>
+</body>
 </html>

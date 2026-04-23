@@ -1,40 +1,27 @@
+/* 
+    4. Loader 
+======================== */
+(function() {
+    const preloader = document.querySelector('.loader');
+    if (!preloader) return;
+
+    const hideLoader = () => {
+        preloader.style.opacity = '0';
+        setTimeout(() => {
+            preloader.style.display = 'none';
+        }, 500);
+    };
+
+    if (document.readyState === 'complete') {
+        hideLoader();
+    } else {
+        window.addEventListener('load', hideLoader);
+        document.addEventListener('DOMContentLoaded', hideLoader);
+        setTimeout(hideLoader, 3000);
+    }
+})();
+
 /*
-
-Table Contents
-==============================
-    1. Countdown timer
-    2. Stirct Mode
-    3. BVSelect Plugin
-    4. Loader
-    5. Newsletter Modal
-    6. Menu
-    7. Shopping Cart 
-    8. Product Image Change
-    9. Cart Quantity
-    10. Products Filter
-    11. Range Slider
-    12. Lightbox Plugin
-    13. Swiper Slider
-    14. Filter
-        14.1    Filter Sidebar
-        14.2    Blog Sidebar Filter
-        14.3    Shop Sidebar Filter 
-    15. Password Show/Hide
-    16. Slider
-        16.1    Banner Slider
-        16.2    Categories Slider
-        16.3    Products Slider
-        16.4    Gallery Slider
-        16.5    Deals Slider
-        16.6    Featured Sliders
-        16.7    News Slider
-        16.8    Testimonial Slider
-        16.9    Instagram Slider
-        16.10   Brands Slider
-        16.11   Member Slider
-        16.12   Blog Post Slider
-
- */
 
 /* 
     1. Countdown timer
@@ -166,14 +153,8 @@ if (document.getElementById('number')) {
   });
 }
 
-/* 
-    4. Loader 
-======================== */
-const preloader = document.querySelector('.loader');
 
-window.addEventListener('load', (event) => {
-  preloader.style.display = 'none';
-});
+
 
 /* 
     5. Newsletter Modal
