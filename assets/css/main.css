@@ -224,11 +224,11 @@
 }
 
 .section--primary {
-  background-color: #00b207;
+  background-color: #D4AF37;
 }
 
 .bg--primary {
-  background-color: #00b207;
+  background-color: #D4AF37;
 }
 
 .section--hard-primary {
@@ -690,7 +690,7 @@ a {
   display: block;
   font-size: 16px;
   line-height: 19.2px;
-  color: #00b207;
+  color: #D4AF37;
   font-weight: 400;
   font-family: "Segoe Script", sans-serif;
   text-transform: uppercase;
@@ -703,7 +703,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
-  color: #00b207;
+  color: #D4AF37;
   transition: all 0.3s linear;
 }
 
@@ -785,7 +785,7 @@ a {
   position: absolute;
   width: 40px;
   height: 4px;
-  background-color: #00b207;
+  background-color: #D4AF37;
   bottom: -16px;
 }
 
@@ -815,7 +815,7 @@ a {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: #00b207;
+  color: #D4AF37;
   margin-bottom: 8px;
 }
 
@@ -863,7 +863,7 @@ a {
   padding: 10px 24px;
   border-radius: 43px;
   color: #fff;
-  background-color: #00b207;
+  background-color: #D4AF37;
   display: inline-block;
   transition: all 0.3s ease-in-out;
   text-transform: capitalize;
@@ -898,9 +898,9 @@ a {
 }
 
 .button--outline {
-  color: #00b207;
+  color: #D4AF37;
   background-color: transparent;
-  border: 2px solid #00b207;
+  border: 2px solid #D4AF37;
 }
 
 .button--outline:hover {
@@ -910,7 +910,7 @@ a {
 }
 
 .button--disable {
-  color: #00b207;
+  color: #D4AF37;
   background: #56ac591a;
   pointer-events: none;
 }
@@ -934,7 +934,7 @@ a {
 
 .action-btn:hover {
   color: #fff;
-  background-color: #00b207;
+  background-color: #D4AF37;
   border-color: transparent;
 }
 
@@ -1026,7 +1026,7 @@ a {
 .dashboard-card:hover .cards-md__info-right .action-btn,
 .template-card:hover .cards-md__info-right .action-btn {
   color: #fff;
-  background-color: #00b207;
+  background-color: #D4AF37;
 }
 
 .cards-sm {
@@ -1157,7 +1157,7 @@ a {
 }
 
 .cards-md:hover .cards-md__info-left h6 {
-  color: #00b207;
+  color: #D4AF37;
 }
 
 .cards-md:hover .cards-md__info-right .action-btn {
@@ -1454,7 +1454,7 @@ a {
 }
 
 .cards-blog:hover .cards-blog__play-icon {
-  color: #00b207;
+  color: #D4AF37;
   transition: all 0.3s linear;
 }
 
@@ -1537,7 +1537,7 @@ a {
   font-size: 16px;
   line-height: 19.2px;
   font-weight: 600;
-  color: #00b207;
+  color: #D4AF37;
   margin-top: 12px;
 }
 
@@ -1584,7 +1584,7 @@ a {
 
 .cards-blog--two .cards-blog__info a {
   margin-top: 20px;
-  color: #00b207;
+  color: #D4AF37;
 }
 
 .cards-mb {
@@ -1674,7 +1674,7 @@ a {
 }
 
 .cards-mb__img-wrapper--social span a:hover {
-  background-color: #00b207;
+  background-color: #D4AF37;
 }
 
 .cards-mb__designation {
@@ -1723,7 +1723,7 @@ a {
 }
 
 .cards-ss--small-one .cards-ss__content p {
-  color: #00b207;
+  color: #D4AF37;
 }
 
 .cards-ss--small-two .cards-ss__img-wrapper {
@@ -1822,7 +1822,7 @@ a {
 
 .cards-ss--md__text-content .button {
   background-color: #fff;
-  color: #00b207;
+  color: #D4AF37;
 }
 
 .cards-ss--md-one .cards-ss--md__text-content, .cards-ss--md-three .cards-ss--md__text-content {
@@ -1929,7 +1929,7 @@ a {
 .cards-ss__content a.button {
   margin-top: 24px;
   background-color: #fff;
-  color: #00b207;
+  color: #D4AF37;
   text-transform: capitalize;
 }
 
@@ -2027,7 +2027,7 @@ a {
   position: absolute;
   top: 24px;
   left: 24px;
-  color: #00b207;
+  color: #D4AF37;
 }
 
 .cards-tm-2 {
@@ -2067,7 +2067,7 @@ a {
   top: 32px;
   left: 50%;
   transform: translateX(-50%);
-  color: #00b207;
+  color: #D4AF37;
 }
 
 .cards-tm-2__text {
@@ -2225,13 +2225,13 @@ a {
 
 .cards-ship--two .cards-ship__item:hover .cards-ship__item-icon {
   color: #fff;
-  background-color: #00b207;
+  background-color: #D4AF37;
   transition: all 0.3s linear;
 }
 
 .cards-ship--two .cards-ship__item:hover::after {
   height: 2px;
-  background-color: #00b207;
+  background-color: #D4AF37;
 }
 
 .cards-ship--two .cards-ship__item::after {
@@ -2253,7 +2253,7 @@ a {
   border-radius: 100%;
   overflow: hidden;
   background-color: #edf2ee;
-  color: #00b207;
+  color: #D4AF37;
 }
 
 .cards-ship--two .cards-ship__item-process-info h2 {
@@ -2288,13 +2288,13 @@ a {
 }
 
 .cards-ship--three .cards-ship__item:hover {
-  background-color: #00b207;
+  background-color: #D4AF37;
 }
 
 .cards-ship--three .cards-ship__item:hover .cards-ship__item-icon {
   background-color: #fff;
   border-color: transparent;
-  color: #00b207;
+  color: #D4AF37;
   transition: all 0.3s linear;
 }
 
@@ -2363,7 +2363,7 @@ a {
 
 .cards-ship--four .cards-ship__item:hover::after {
   height: 4px;
-  background-color: #00b207;
+  background-color: #D4AF37;
   bottom: -1px;
 }
 
@@ -2373,7 +2373,7 @@ a {
 }
 
 .cards-ship--four .cards-ship__item:hover .cards-ship__item-icon .background svg {
-  color: #00b207;
+  color: #D4AF37;
   transition: all 0.3s linear;
 }
 
@@ -2390,7 +2390,7 @@ a {
 .cards-ship--four .cards-ship__item-icon {
   display: inline-block;
   margin-bottom: 16px;
-  color: #00b207;
+  color: #D4AF37;
   position: relative;
   width: 72px;
   height: 72px;
@@ -2657,7 +2657,7 @@ a {
 }
 
 .header--six .navbar-nav .nav-item .nav-link.active {
-  color: #00b207;
+  color: #D4AF37;
 }
 
 @media (max-width: 991px) {
@@ -2881,9 +2881,9 @@ a {
 }
 
 .pageView__menu .nav-link.active {
-  background-color: #00b207;
+  background-color: #D4AF37;
   color: #fff;
-  border-color: #00b207;
+  border-color: #D4AF37;
   transition: all 0.3s linear;
 }
 

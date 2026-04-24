@@ -7,6 +7,7 @@
 
     const hideLoader = () => {
         preloader.style.opacity = '0';
+
         setTimeout(() => {
             preloader.style.display = 'none';
         }, 500);
@@ -966,7 +967,7 @@ var featured = new Swiper('.related-slider--one', {
   },
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     480: {
       slidesPerView: 2,
