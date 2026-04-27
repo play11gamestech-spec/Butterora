@@ -5162,7 +5162,7 @@ body.overlay::after {
 .footer__brand-info-contact span {
   color: #fff;
   padding-bottom: 6px;
-  border-bottom: 1px solid #D4AF37;
+  border-bottom: none;
   font-weight: 500;
   transition: all 0.3s linear;
 }

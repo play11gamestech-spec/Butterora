@@ -2816,14 +2816,14 @@ a {
   z-index: 3;
 }
 
-.presentation__img-content .bg-parallax li.fruits {
+.presentation__img-content .bg-parallax li.Salted Butters {
   right: -150px;
   bottom: 150px;
   z-index: -1;
 }
 
 @media (max-width: 1460px) {
-  .presentation__img-content .bg-parallax li.fruits {
+  .presentation__img-content .bg-parallax li.Salted Butters {
     right: 0px;
   }
 }
@@ -2842,7 +2842,7 @@ a {
 }
 
 @media (max-width: 991px) {
-  .presentation__img-content .bg-parallax li.orange, .presentation__img-content .bg-parallax li.fruits, .presentation__img-content .bg-parallax li.pc {
+  .presentation__img-content .bg-parallax li.orange, .presentation__img-content .bg-parallax li.Salted Butters, .presentation__img-content .bg-parallax li.pc {
     display: none;
   }
 }
