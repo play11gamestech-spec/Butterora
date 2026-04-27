@@ -5163,6 +5163,7 @@ body.overlay::after {
   color: #fff;
   padding-bottom: 6px;
   border-bottom: none;
+  text-decoration: none !important;
   font-weight: 500;
   transition: all 0.3s linear;
 }
@@ -5193,11 +5194,13 @@ body.overlay::after {
   font-size: 14px;
   line-height: 21px;
   color: #999999;
+  text-decoration: none !important;
   transition: all 0.3s linear;
   text-transform: capitalize;
 }
 .footer__navigation-link a:hover {
   color: #fff;
+  text-decoration: none !important;
 }
 .footer__bottom {
   padding: 30px 0px;
@@ -11026,9 +11029,11 @@ body.overlay::after {
 .cards-md a,
 .cards-md a:hover,
 .products__content-category a,
-.products__content-category a:hover {
+.products__content-category a:hover,
+.footer__brand-info-contact span,
+.footer__brand-info-contact a,
+.footer__navigation-link a {
     text-decoration: none !important;
-    color: inherit !important;
     border-bottom: none !important;
 }
 
